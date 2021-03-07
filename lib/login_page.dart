@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatelessWidget {
@@ -42,7 +40,7 @@ class LoginPage extends StatelessWidget {
                                 color: Colors.white,
                                 fontSize: 18,
                                 fontWeight: FontWeight.bold,
-                                fontFamily: 'RobotoSlabMedium',
+                                fontFamily: 'RobotoSlab-Medium',
                               ),
                               textDirection: TextDirection.ltr,
                               textAlign: TextAlign.center,
@@ -55,7 +53,7 @@ class LoginPage extends StatelessWidget {
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 12,
-                                fontFamily: 'RobotoSlabRegular',
+                                fontFamily: 'RobotoSlab-Regular',
                               ),
                               textDirection: TextDirection.ltr,
                               textAlign: TextAlign.center,
@@ -73,7 +71,7 @@ class LoginPage extends StatelessWidget {
                           'Login with Facebook',
                           style: TextStyle(
                             fontSize: 12,
-                            fontFamily: 'RobotoSlabCondense',
+                            fontFamily: 'RobotoCondensed-Light',
                           ),
                         ),
                         style: ElevatedButton.styleFrom(
