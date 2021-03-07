@@ -1,16 +1,16 @@
-# loginscreen
+# Login Screen
 
-A new Flutter project.
+Projeto testando no Elementary OS.
 
-## Getting Started
+Minhas primeiras linhas de código no Flutter 💙️.
 
-This project is a starting point for a Flutter application.
+<p align="center">
+  <img src="" alt="Tela1" width="300" height="300"/>
+</p>
 
-A few resources to get you started if this is your first Flutter project:
+<p align="center">
+  <img src="" alt="Tela2" width="300" height="300"/>
+</p>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+É uma questão para testar criar layout, o código não
+contém funcionalidades reais para o se realizar um login.
