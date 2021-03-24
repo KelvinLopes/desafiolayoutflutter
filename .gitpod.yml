@@ -1,0 +1,25 @@
+image:
+  file: .gitpod.Dockerfile
+
+github:
+  prebuilds:
+    master: true
+    branches: false
+    pullRequests: true
+    pullRequestsFromForks: false
+    addCheck: false
+    addComment: true
+    addBadge: false
+    addLabel: false
+
+tasks:
+- command: |
+    mkdir -p /home/gitpod/.android
+    touch /home/gitpod/.android/repositories.cfg
+    export PATH=/usr/lib/dart/bin:$FLUTTER_HOME/bin:$ANDROID_HOME/bin:$PATH
+    /home/gitpod/android-sdk/tools/bin/sdkmanager "platform-tools" "platforms;android-28" "build-tools;28.0.3"
+
+vscode:
+  extensions:
+    - ahmadawais.shades-of-purple@6.12.0:phtipGVPrS5xO6knvBtr8A==
+    - Dart-Code.flutter@3.5.0:/kOacEWdiDRLyN/idUiM4A==
